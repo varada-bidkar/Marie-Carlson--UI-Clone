@@ -1,0 +1,41 @@
+.header{
+width: 100%;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px;
+}
+h2{
+    font-style: italic;
+    font-size: larger;
+}
+
+.header .links a{
+margin-left: 40px;
+padding: 2px 9px;
+text-decoration: none;
+color: black;
+transition: all ease-in 0.3s;
+}
+a:hover{
+    border-radius: 3px;
+    border-color: gray;
+    border: 2px solid black;
+    background-color: rgba(223, 223, 226, 0.623);
+}
+
+button{
+width: 130px;
+height: 26px;
+outline: none;
+border-radius: 3px;
+border-color: white;
+background-color: black;
+color: white;
+}
+button:hover{
+cursor: pointer;
+background-color: rgba(68, 64, 64, 0.719);
+color: white;
+}

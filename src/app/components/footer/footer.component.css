@@ -1,0 +1,38 @@
+h1{
+
+}
+.name{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+ .links a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: 700;
+}
+.links a:hover{
+    color: blue;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: normal;
+}
+h2{
+    color: rgb(204, 196, 196);
+    font-size: 17px;
+}
+.n h1{
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 130px;
+    text-justify: distribute;
+ 
+}
+.n{
+    margin-top: 200px;
+}

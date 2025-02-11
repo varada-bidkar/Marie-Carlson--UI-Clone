@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height:240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .card{
+    width: 16%;
+    height: 240px;
+}
+.card img{
+    width: 100%;
+    height: 240px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container1{
+width: 100%;
+gap: 10px;
+padding: 60px 100px;
+margin: 30px auto;
+display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: end;
+}
+.container1 h2{
+    font-size: 90px;
+}
+.container1 p{
+    width: 40%;
+    font-size: 12px;
+    text-align: right;
+}

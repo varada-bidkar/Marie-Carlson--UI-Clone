@@ -1,0 +1,79 @@
+h2{
+    padding: 2px 100px;
+    font-style: italic;
+}
+.container{
+    width: 100%;
+    height:240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.container .card{
+    width: 70%;
+    padding: 0px 100px;
+    height: 240px;
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.card2{
+    width: 30%;
+    height: 240px;
+}
+.card img{
+    width: 90%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card p{
+    text-align: left;
+}
+.container1{
+    width: 100%;
+    height:340px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 190px;
+    margin : 90px 0px ; 
+    gap: 90px;
+}
+.container1 .card{
+    width: 46%;
+    height: 440px;
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.container1 .card img{
+    width: 100%;
+    height: 440px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container1 .card1 img{
+    width: 100%;
+    height: 340px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p{
+    width: 20%;
+    text-align: justify;
+}
+.card1{
+    width: 26%;
+    height: 340px;
+    margin-top: 300px;
+}
