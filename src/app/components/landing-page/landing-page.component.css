@@ -36,3 +36,58 @@ justify-content: end;
     font-size: 12px;
     text-align: right;
 }
+
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 5px;
+    }
+
+    .container .card {
+        width: 45%;
+        height: auto;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .container1 {
+        padding: 30px 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container1 h2 {
+        font-size: 50px;
+    }
+
+    .container1 p {
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .card {
+        width: 90%;
+    }
+
+    .container1 h2 {
+        font-size: 36px;
+    }
+
+    .container1 p {
+        width: 90%;
+        font-size: 14px;
+    }
+}
